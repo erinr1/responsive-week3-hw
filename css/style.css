@@ -103,3 +103,22 @@ p {
   box-shadow: var(--box-shadow);
   padding: 8px;
 }
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2,
+  h3 {
+    font-size: 24px;
+  }
+  .index-images {
+    display: none;
+  }
+  .index-divs {
+    text-align: center;
+  }
+  .portfolio-titles {
+    text-align: center;
+  }
+}
